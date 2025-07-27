@@ -5,7 +5,7 @@ name: Continuous integration
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, fix ]
     paths-ignore:
       - '**/*.md'
   pull_request:
